@@ -1,6 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
+
+const pi float32 = 3.14159
 
 func main() {
 
@@ -12,5 +17,6 @@ func main() {
 
 	fmt.Println(a + b + c)
 	fmt.Println(e, d)
+	fmt.Println(math.Sin(pi))
 	fmt.Println(short)
 }
